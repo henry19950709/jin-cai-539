@@ -1,0 +1,265 @@
+========================================================================
+[2026-08-11T22:48:43] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-11T22:58:20] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-11T22:58:20] using cached draws from C:\Users\henry\AppData\Local\Temp\tmp4qck9if5\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-11T22:58:24] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-11T22:58:24] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-11T23:37:27] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-11T23:37:28] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T22:18:12] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T22:18:12] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T22:23:54] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T22:23:55] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T22:36:32] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T22:36:33] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T22:46:21] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T22:46:21] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T22:49:07] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T22:49:08] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T22:50:21] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T22:50:21] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T22:51:28] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T22:51:28] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T22:53:10] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T22:53:10] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T23:18:00] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T23:18:00] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T23:31:35] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T23:31:35] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T23:40:28] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T23:40:29] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T23:55:33] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-12T23:55:34] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-13T00:05:02] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-13T00:05:03] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-13T00:11:37] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-13T00:11:37] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-13T00:11:45] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-13T00:11:47] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-13T00:11:48] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-13T00:11:49] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-13T00:11:50] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-13T00:15:51] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-13T00:17:41] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-13T00:17:42] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-13T00:20:14] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-13T00:20:15] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-13T00:25:21] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-13T00:25:22] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-17T21:11:51] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-17T21:11:52] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-31T23:06:31] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-31T23:06:32] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
+========================================================================
+[2026-08-31T23:08:28] HTTP backend = curl_cffi (chrome), verify=False
+context: HttpClient
+proxy env:
+  (none)
+========================================================================
+[2026-08-31T23:08:29] using cached draws from C:\Users\henry\OneDrive\Desktop\jin_cai_539_analyzer\jin_cai_539_analyzer\data\daily539_cache.json
+context: crawl_all
+proxy env:
+  (none)
