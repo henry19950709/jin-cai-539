@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#12213a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="今彩539">
+    <meta name="description" content="今彩 539 歷史開獎、合數與尾數統計">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="apple-touch-icon" href="./icons/icon-180.png">
+    <link rel="icon" type="image/svg+xml" href="./icons/icon.svg">
+    <link rel="stylesheet" href="./styles.css">
+    <title>今彩 539｜歷史資料分析</title>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">539</span>
+          <div>
+            <p class="eyebrow">DAILY 539 · HISTORICAL ANALYSIS</p>
+            <h1>今彩 539</h1>
+          </div>
+        </div>
+        <p class="header-description">用歷史開獎資料，找到你想看的規律與分布。</p>
+      </header>
+
+      <main>
+        <section class="data-banner" aria-label="資料狀態">
+          <div>
+            <span class="data-banner-label">資料庫</span>
+            <p id="data-status" role="status" aria-live="polite">正在載入歷史開獎資料…</p>
+            <small id="data-note">資料僅供歷史統計參考</small>
+          </div>
+          <button id="reload-data" class="text-button" type="button">重新載入</button>
+        </section>
+
+        <nav class="tab-bar" role="tablist" aria-label="分析功能">
+          <button class="tab is-active" id="tab-reference" role="tab" type="button" data-tab="reference" aria-controls="panel-reference" aria-selected="true">參照分析</button>
+          <button class="tab" id="tab-statistics" role="tab" type="button" data-tab="statistics" aria-controls="panel-statistics" aria-selected="false">條件統計</button>
+        </nav>
+
+        <section id="panel-reference" class="tab-panel" role="tabpanel" aria-labelledby="tab-reference">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">LOOK BACK</p>
+              <h2>選一個基準期</h2>
+            </div>
+            <p>對照過去五年與前十二個月的開獎紀錄。</p>
+          </div>
+
+          <form id="reference-form" class="panel form-panel">
+            <div class="form-grid">
+              <label class="field">
+                <span>開獎日期</span>
+                <input id="reference-date" type="date">
+              </label>
+              <label class="field">
+                <span>期別 <small>選填，優先於日期</small></span>
+                <input id="reference-period" type="number" inputmode="numeric" min="1" placeholder="例如 115000211">
+              </label>
+            </div>
+            <button class="primary-button" type="submit">分析這一期 <span aria-hidden="true">→</span></button>
+          </form>
+          <p id="reference-error" class="form-error" role="alert" hidden></p>
+          <div id="reference-output" aria-live="polite"></div>
+        </section>
+
+        <section id="panel-statistics" class="tab-panel" role="tabpanel" aria-labelledby="tab-statistics" hidden>
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">EXPLORE THE DATA</p>
+              <h2>自訂條件統計</h2>
+            </div>
+            <p>依年份、月份、期別、合數與尾數篩選。</p>
+          </div>
+
+          <form id="statistics-form" class="panel form-panel">
+            <div class="form-grid two-columns">
+              <label class="field">
+                <span>年份</span>
+                <select id="filter-year"><option value="">全部年份</option></select>
+              </label>
+              <label class="field">
+                <span>月份</span>
+                <select id="filter-month"><option value="">全部月份</option></select>
+              </label>
+              <label class="field">
+                <span>起始期別</span>
+                <input id="period-from" type="number" inputmode="numeric" min="1" placeholder="不限">
+              </label>
+              <label class="field">
+                <span>結束期別</span>
+                <input id="period-to" type="number" inputmode="numeric" min="1" placeholder="不限">
+              </label>
+            </div>
+
+            <fieldset class="number-filter">
+              <legend>合數 <small>可複選</small></legend>
+              <div id="he-options" class="chip-grid"></div>
+            </fieldset>
+            <fieldset class="number-filter">
+              <legend>尾數 <small>可複選</small></legend>
+              <div id="wei-options" class="chip-grid"></div>
+            </fieldset>
+            <label class="check-row">
+              <input id="numbers-only" type="checkbox">
+              <span>只統計符合合數與尾數條件的號碼</span>
+            </label>
+            <div class="form-actions">
+              <button class="primary-button" type="submit">套用條件 <span aria-hidden="true">→</span></button>
+              <button id="reset-filters" class="secondary-button" type="button">清除條件</button>
+            </div>
+          </form>
+          <p id="statistics-error" class="form-error" role="alert" hidden></p>
+          <div id="statistics-output" aria-live="polite"></div>
+        </section>
+      </main>
+
+      <footer>
+        <p>歷史統計不代表未來開獎結果。請以官方開獎公告為準。</p>
+      </footer>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

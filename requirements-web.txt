@@ -1,0 +1,2 @@
+# The PWA is static; local serving uses only the Python standard library.
+# Install requirements-data.txt only when refreshing lottery data.

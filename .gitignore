@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+.env
+data/test_cache.json
+data/debug/
+error.log
+.DS_Store
+*.egg-info/
+dist/
+build/
+*.zip
+.github_token.txt

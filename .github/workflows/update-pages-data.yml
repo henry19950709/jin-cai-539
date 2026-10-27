@@ -1,0 +1,81 @@
+name: Build and deploy 539 PWA
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+    inputs:
+      refresh_data:
+        description: "Fetch new draws before deploying"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install data dependencies
+        if: github.event_name == 'schedule' || inputs.refresh_data == true
+        run: python -m pip install -r requirements-data.txt
+
+      - name: Fetch recent draws
+        if: github.event_name == 'schedule' || inputs.refresh_data == true
+        run: python scripts/update_pages_data.py
+
+      - name: Export PWA data
+        run: python scripts/export_pages_data.py
+
+      - name: Test browser analysis logic
+        run: node --test tests/test_web_logic.mjs
+
+      - name: Commit updated data
+        if: github.event_name == 'schedule' || inputs.refresh_data == true
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update 539 PWA draw data"
+          file_pattern: "data/daily539_cache.json docs/data/cache.json docs/data/summary.json"
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload PWA
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "今彩 539 歷史資料分析",
+  "short_name": "今彩539",
+  "description": "查詢今彩 539 歷史開獎、合數與尾數統計",
+  "lang": "zh-Hant",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f6f9",
+  "theme_color": "#12213a",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
